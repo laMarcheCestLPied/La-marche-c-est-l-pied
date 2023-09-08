@@ -1,0 +1,7 @@
+#accueil{
+    background-image: url(../img/fond_minier2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100vw;
+    height: 100vh;
+}
