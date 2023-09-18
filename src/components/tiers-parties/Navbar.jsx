@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <header className="p-2 d-flex justify-content-between align-items-center text-white" id='haut'>
             <div className="d-flex align-items-center">
-                <a href="/">
+                <a href="/La-marche-c-est-l-pied">
                     <img src={logo} alt="" height={150} className="rounded-circle" />
                 </a>
                 <h1
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`}>
                     <ul className="navbar-nav d-flex flex-column flex-lg-row w-100 justify-content-evenly">
                         <li className="nav-item">
-                            <NavLink end to="/" className="nav-link text-white">
+                            <NavLink end to="/La-marche-c-est-l-pied" className="nav-link text-white">
                                 Accueil
                             </NavLink>
                         </li>
