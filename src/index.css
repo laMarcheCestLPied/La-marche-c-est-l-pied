@@ -34,3 +34,10 @@ main {
   border-radius: 6px;
   padding: 6px 12px 6px 12px;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 20px;
+}

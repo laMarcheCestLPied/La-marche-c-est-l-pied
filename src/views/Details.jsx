@@ -14,7 +14,7 @@ const Details = () => {
                 break;
             }
         }
-    }, []);
+    }, [url]);
 
     function changeFormateDate(oldDate) {
         return oldDate.toString().split('-').reverse().join('/');
@@ -45,7 +45,7 @@ const Details = () => {
                                     key={index}
                                 >
                                     <img
-                                        src={`../src/assets/img/${image}`}
+                                        src={`${process.env.PUBLIC_URL}/assets/img/${image}`}
                                         className="d-block mx-auto"
                                         alt={`Slide ${index}`}
                                         style={{ maxWidth: '100%', maxHeight: '700px' }}
@@ -53,6 +53,7 @@ const Details = () => {
                                 </div>
                             ))}
                         </div>
+                    </div>
                         <button
                             className="carousel-control-prev"
                             type="button"
@@ -60,7 +61,7 @@ const Details = () => {
                             data-bs-slide="prev"
                         >
                             <span
-                                className="carousel-control-prev-icon"
+                            className="carousel-control-prev-icon text-bg-dark"
                                 aria-hidden="true"
                             ></span>
                             <span className="visually-hidden">Previous</span>
@@ -72,12 +73,11 @@ const Details = () => {
                             data-bs-slide="next"
                         >
                             <span
-                                className="carousel-control-next-icon"
+                            className="carousel-control-next-icon text-bg-dark"
                                 aria-hidden="true"
                             ></span>
                             <span className="visually-hidden">Next</span>
                         </button>
-                    </div>
                 </div>
                 <div className="d-flex justify-content-center mt-5">
                     <SatelliteMap positions={dataFind.positions} />

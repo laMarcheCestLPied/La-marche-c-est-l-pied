@@ -20,16 +20,16 @@ const Card = ({ data }) => {
         let sumImageWidth = 0;
         let newLimit = 0;
 
-        for (let i = 0; i < 10; i++) {
+        const loadImage = (imageSrc) => {
             const image = new Image();
-            image.src = `src/assets/img/${data.photos[i]}`;
+            image.src = `${process.env.PUBLIC_URL}/assets/img/${imageSrc}`;
             image.onload = () => {
                 const width = (image.naturalWidth * 250) / image.naturalHeight;
                 sumImageWidth += width;
 
                 if (sumImageWidth < screenWidth - 50) {
                     newLimit++;
-                    if (data.photos.length == 1) {
+                    if (data.photos.length === 1) {
                         newLimit++;
                         setLimit(newLimit);
                     }
@@ -38,6 +38,10 @@ const Card = ({ data }) => {
                     return;
                 }
             };
+        };
+
+        for (let i = 0; i < 10; i++) {
+            loadImage(data.photos[i]);
         }
 
         setLimit(newLimit);
@@ -59,7 +63,7 @@ const Card = ({ data }) => {
                     <img
                         className="me-3"
                         key={photo}
-                        src={`src/assets/img/${photo}`}
+                        src={`${process.env.PUBLIC_URL}/assets/img/${photo}`}
                         alt={photo}
                         height={250}
                     />
