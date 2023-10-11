@@ -40,23 +40,23 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/parcours" className="nav-link text-white">
+                            <NavLink to="/La-marche-c-est-l-pied/parcours" className="nav-link text-white">
                                 Parcours
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/evenements" className="nav-link text-white">
+                            <NavLink to="/La-marche-c-est-l-pied/evenements" className="nav-link text-white">
                                 Evenements
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/a_propos" className="nav-link text-white">
+                            <NavLink to="/La-marche-c-est-l-pied/a_propos" className="nav-link text-white">
                                 A propos
                             </NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink
-                                to="/modalites_inscription"
+                                to="/La-marche-c-est-l-pied/modalites_inscription"
                                 className="nav-link text-white"
                             >
                                 S&apos;inscrire

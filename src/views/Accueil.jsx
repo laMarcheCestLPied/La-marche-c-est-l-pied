@@ -28,16 +28,16 @@ const Accueil = () => {
             </h3>
 
             <figure className="position-absolute top-50 start-50 translate-middle d-flex">
-                <NavLink to="/modalites_inscription" className="me-5">
+                <NavLink to="/La-marche-c-est-l-pied/modalites_inscription" className="me-5">
                     <Bouton text="S'inscrire" className="bg-green text-white fs-4" />
                 </NavLink>
-                <NavLink to="/parcours" className="nav-link mx-5">
+                <NavLink to="/La-marche-c-est-l-pied/parcours" className="nav-link mx-5">
                     <Bouton
                         text="Voir les parcours"
                         className="btn-primary text-white fs-4 "
                     />
                 </NavLink>
-                <NavLink to="/contact" className="ms-5">
+                <NavLink to="/La-marche-c-est-l-pied/contact" className="ms-5">
                     <Bouton text="Nous contacter" className="bg-green text-white fs-4 " />
                 </NavLink>
             </figure>

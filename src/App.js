@@ -19,22 +19,16 @@ const App = () => {
                 <Navbar />
                 <main>
                     <Routes>
-                        <Route path="/parcours" element={<Parcours />} />
-                        <Route path="/evenements" element={<Evenements />} />
-                        <Route path="/a_propos" element={<APropos />} />
-                        <Route path="/mentions_legales" element={<MentionsLegales />} />
+                        <Route path="/La-marche-c-est-l-pied/parcours" element={<Parcours />} />
+                        <Route path="/La-marche-c-est-l-pied/evenements" element={<Evenements />} />
+                        <Route path="/La-marche-c-est-l-pied/a_propos" element={<APropos />} />
+                        <Route path="/La-marche-c-est-l-pied/mentions_legales" element={<MentionsLegales />} />
                         <Route
-                            path="/modalites_inscription"
+                            path="/La-marche-c-est-l-pied/modalites_inscription"
                             element={<ModalitesInscriptions />}
                         />
-                        <Route path="/contact" element={<Contact />} />
-                        {/* <Route
-                            path="/details"
-                            render={(routeProps) => (
-                                <Details data={routeProps.location.data} />
-                            )}
-                        /> */}
-                        <Route path="/details" element={<Details />} />
+                        <Route path="/La-marche-c-est-l-pied/contact" element={<Contact />} />
+                        <Route path="/La-marche-c-est-l-pied/details" element={<Details />} />
                         <Route path="/La-marche-c-est-l-pied" exact element={<Accueil />} />
                         {/* <Route path="*" element={<Error />} /> */}
                     </Routes>

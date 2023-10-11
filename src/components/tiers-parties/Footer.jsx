@@ -28,7 +28,7 @@ const Footer = () => {
                 </svg>
             </a>
             <NavLink
-                to="contact"
+                to="/La-marche-c-est-l-pied/contact"
                 className="text-white link-light link-underline-opacity-0 link-underline-opacity-100-hover mt-3 mt-sm-0"
             >
                 Nous contacter
@@ -39,13 +39,13 @@ const Footer = () => {
             </div>
 
             <NavLink
-                to="mentions_legales"
+                to="/La-marche-c-est-l-pied/mentions_legales"
                 className="text-white link-light link-underline-opacity-0 link-underline-opacity-100-hover mt-3 mt-sm-0"
             >
                 Mentions légales
             </NavLink>
             <NavLink
-                to="/modalites_inscription"
+                to="/La-marche-c-est-l-pied/modalites_inscription"
                 className="text-white link-light link-underline-opacity-0 link-underline-opacity-100-hover mt-3 mt-sm-0"
             >
                 S&apos;inscrire

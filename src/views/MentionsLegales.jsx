@@ -17,11 +17,11 @@ const MentionsLegales = () => {
                 <p>Numéro de téléphone : [numéro de téléphone]</p>
                 <p>Adresse e-mail : [adresse e-mail de l&apos;association]</p>
 
-                <h6 className="text-decoration-underline mt-4">Hébergement du site :</h6>
+                {/* <h6 className="text-decoration-underline mt-4">Hébergement du site :</h6>
                 <p>Nom de l&apos;hébergeur : [nom de l&apos;hébergeur]</p>
                 <p>Adresse : [adresse de l&apos;hébergeur]</p>
                 <p>Numéro de téléphone : [numéro de téléphone de l&apos;hébergeur]</p>
-                <p>Site web : [site web de l&apos;hébergeur]</p>
+                <p>Site web : [site web de l&apos;hébergeur]</p> */}
 
                 <h6 className="text-decoration-underline mt-4">
                     Propriété intellectuelle :
@@ -63,7 +63,7 @@ const MentionsLegales = () => {
             </section>
 
             <figure className="text-center">
-                <NavLink to="/modalites_inscription">
+                <NavLink to="/La-marche-c-est-l-pied/modalites_inscription">
                     <Bouton text="S'inscrire" className="bg-green text-white fs-4 me-5" />
                 </NavLink>
             </figure>
