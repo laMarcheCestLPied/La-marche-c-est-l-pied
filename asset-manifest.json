@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/La-marche-c-est-l-pied/static/css/main.37fdb0a0.css",
-    "main.js": "/La-marche-c-est-l-pied/static/js/main.379036e5.js",
+    "main.js": "/La-marche-c-est-l-pied/static/js/main.a10caacd.js",
     "static/js/787.e6f700ec.chunk.js": "/La-marche-c-est-l-pied/static/js/787.e6f700ec.chunk.js",
     "static/media/fond_minier2.jpg": "/La-marche-c-est-l-pied/static/media/fond_minier2.80b2f9149e39e93b0fde.jpg",
     "static/media/logo use.jpg": "/La-marche-c-est-l-pied/static/media/logo use.60a2d01be906716a7297.jpg",
     "static/media/Fleche haut vert.png": "/La-marche-c-est-l-pied/static/media/Fleche haut vert.0620682719bce64d2e4c.png",
     "index.html": "/La-marche-c-est-l-pied/index.html",
     "main.37fdb0a0.css.map": "/La-marche-c-est-l-pied/static/css/main.37fdb0a0.css.map",
-    "main.379036e5.js.map": "/La-marche-c-est-l-pied/static/js/main.379036e5.js.map",
+    "main.a10caacd.js.map": "/La-marche-c-est-l-pied/static/js/main.a10caacd.js.map",
     "787.e6f700ec.chunk.js.map": "/La-marche-c-est-l-pied/static/js/787.e6f700ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37fdb0a0.css",
-    "static/js/main.379036e5.js"
+    "static/js/main.a10caacd.js"
   ]
 }
