@@ -72,7 +72,7 @@ const ModalitesInscriptions = () => {
                     />
                     En cochant cette case vous acceptez les modalités d’inscription
                 </label>
-                <a href="../assets/pdf/BULLETIN DINSCRIPTION COMPLET 10092023.pdf" target="_blank" download>
+                <a href="https://drive.google.com/file/d/100J5dL3dksc1QaanxOTqnUoRgV-2hHon/view?usp=sharing" target="_blank" rel="noreferrer">
                     <button
                         className={`btn-inscription text-white fs-4 ${
                             isChecked ? 'bg-green' : 'bg-secondary'
