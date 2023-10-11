@@ -926,6 +926,7 @@
     },
     {
         "date": "2023-10-01",
+        "alternative":true,
         "lieu": "Dourges",
         "positions": [
             [
@@ -957,6 +958,7 @@
     },
     {
         "date": "2023-10-01",
+        "alternative": true,
         "lieu": "Aix-Noulette",
         "positions": [
             [

@@ -9,7 +9,13 @@ const Details = () => {
 
     useEffect(() => {
         for (const data of datas) {
-            if (url.includes(data.date)) {
+            if (data.alternative) {
+                if (url.includes(data.date) && url.includes(data.lieu)) {
+                    
+                    setDataFind(data);
+                    break;
+                }
+            } else if (url.includes(data.date)) {
                 setDataFind(data);
                 break;
             }

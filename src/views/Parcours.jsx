@@ -15,7 +15,7 @@ const Parcours = () => {
                         {index === 1 && <h3>Les différents parcours</h3>}
                         <article className="border m-2 p-2">
                             <NavLink
-                                to={`/La-marche-c-est-l-pied/details?${data.date}`}
+                                to={`/La-marche-c-est-l-pied/details?${data.date}${data.alternative ? '&'+data.lieu : ''}`}
                                 className="nav-link text-black"
                             >
                                 <Card data={data} />
