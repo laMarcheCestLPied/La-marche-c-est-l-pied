@@ -11,10 +11,12 @@ import Evenements from './views/Evenements';
 import MentionsLegales from './views/MentionsLegales';
 import ModalitesInscriptions from './views/ModalitesInscriptions';
 import Parcours from './views/Parcours';
+import RedirectToHome from './views/RedirectToHome';
 
 const App = () => {
     return (
         <>
+            <RedirectToHome />
             <BrowserRouter>
                 <Navbar />
                 <main>
