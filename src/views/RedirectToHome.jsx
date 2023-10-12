@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const RedirectToHome = () => {
+    console.log(window.location.pathname);
     useEffect(() => {
-        if (window.location.pathname !== '/' && !window.location.pathname.startsWith('/votre-autre-route')) {
+        if (window.location.pathname !== '/La-marche-c-est-l-pied/' ) {
             // Si l'URL n'est pas la page d'accueil et ne correspond pas à une autre route définie
-            window.location.href = '/'; // Rediriger vers la page d'accueil
+            window.location.href = 'https://lamarchecestlpied.github.io/La-marche-c-est-l-pied/'; // Rediriger vers la page d'accueil
         }
     }, []);
 
