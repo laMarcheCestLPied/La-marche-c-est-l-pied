@@ -41,3 +41,7 @@ main {
   height: 5vw;
   border-radius: 20px;
 }
+
+.leaflet-popup{
+  bottom: 22px !important;
+}

@@ -15,7 +15,7 @@ const Card = ({ data }) => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-
+  
     useEffect(() => {
         let sumImageWidth = 0;
         let newLimit = 0;

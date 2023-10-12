@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from 'react';
 
 import SatelliteMap from './../components/utils-components/SatelliteMap';
-import datas from './../data/parcours.json';
+import datasParcours from './../data/parcours.json';
+import datasEvents from './../data/events.json';
 
 const Details = () => {
     const url = document.location.href;
     const [dataFind, setDataFind] = useState();
 
     useEffect(() => {
+        let datas;
+        if (url.includes("evenements")) {
+            datas = datasEvents;
+        } else if (url.includes("parcours")) {
+            datas = datasParcours;
+        }
         for (const data of datas) {
             if (data.alternative) {
                 if (url.includes(data.date) && url.includes(data.lieu)) {
-                    
+
                     setDataFind(data);
                     break;
                 }
@@ -29,7 +36,7 @@ const Details = () => {
     if (dataFind) {
         return (
             <section className="p-3">
-                <h1>Détails</h1>
+                <h1>Détails {dataFind.type ? `: ${dataFind.type === "marche aux puces" ? "Marché aux puces" : "Interclub Personnel"} ` : ""}</h1>
                 <figure className="d-flex justify-content-around">
                     <h5>Lieu : {dataFind.lieu}</h5>
                     <h5>Date : {changeFormateDate(dataFind.date)}</h5>
@@ -45,9 +52,8 @@ const Details = () => {
                         <div className="carousel-inner">
                             {dataFind.photos.map((image, index) => (
                                 <div
-                                    className={`carousel-item ${
-                                        index === 0 ? 'active' : ''
-                                    }`}
+                                    className={`carousel-item ${index === 0 ? 'active' : ''
+                                        }`}
                                     key={index}
                                 >
                                     <img
@@ -60,30 +66,30 @@ const Details = () => {
                             ))}
                         </div>
                     </div>
-                        <button
-                            className="carousel-control-prev"
-                            type="button"
-                            data-bs-target="#carouselExample"
-                            data-bs-slide="prev"
-                        >
-                            <span
+                    <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="prev"
+                    >
+                        <span
                             className="carousel-control-prev-icon text-bg-dark"
-                                aria-hidden="true"
-                            ></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button
-                            className="carousel-control-next"
-                            type="button"
-                            data-bs-target="#carouselExample"
-                            data-bs-slide="next"
-                        >
-                            <span
+                            aria-hidden="true"
+                        ></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="next"
+                    >
+                        <span
                             className="carousel-control-next-icon text-bg-dark"
-                                aria-hidden="true"
-                            ></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
+                            aria-hidden="true"
+                        ></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
                 <div className="d-flex justify-content-center mt-5">
                     <SatelliteMap positions={dataFind.positions} />
