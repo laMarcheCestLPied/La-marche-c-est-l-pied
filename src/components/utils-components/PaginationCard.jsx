@@ -57,7 +57,7 @@ const PaginationCard = ({ datasPerPage, totalDatas, handlePageClick }) => {
         }
     };
 
-    return <div className="sticky left-0">{pagination()}</div>;
+    return (<div className="sticky left-0">{pagination()}</div>);
 };
 
 export default PaginationCard;

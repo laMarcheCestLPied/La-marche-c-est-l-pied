@@ -6,9 +6,21 @@ import Card from '../components/utils-components/Card';
 import datas from './../data/events.json';
 import CardProchainement from '../components/utils-components/CardProchainement';
 import { NavLink } from 'react-router-dom';
+import PaginationCard from '../components/utils-components/PaginationCard';
 
 const Evenements = () => {
+    const [itemsPerPage, setItemsPerPage] = useState(5);
+    const [itemOffset, setItemOffset] = useState(0);
+    const endOffset = itemOffset + itemsPerPage;
+    const sortItems = datas.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const currentItems = sortItems.slice(itemOffset, endOffset);
     const [activeTab, setActiveTab] = useState('tab1');
+
+    const handlePageClick = (event) => {
+        const newOffset = (event.selected * itemsPerPage) % datas.length;
+        setItemOffset(newOffset);
+    };
+    
 
     const prochainements = [
         {
@@ -49,8 +61,7 @@ const Evenements = () => {
                 <div className="tab-content">
                     <div className={`tab-pane ${activeTab === 'tab1' ? 'active' : ''}`}>
                         {activeTab === 'tab1' &&
-                            datas
-                                .sort((a, b) => new Date(b.date) - new Date(a.date))
+                            currentItems
                                 .map((data, index) => (
                                     <div key={data.date}>
                                         
@@ -71,6 +82,8 @@ const Evenements = () => {
                                         </article>
                                     </div>
                                 ))}
+                        <PaginationCard datasPerPage={itemsPerPage} totalDatas={datas.length} handlePageClick={handlePageClick} />
+                        <h5 className='text-center'>Nombres d'Evènements : <span className='fw-bold'>{datas.length}</span> !</h5>
                     </div>
                     <div className={`tab-pane ${activeTab === 'tab2' ? 'active' : ''}`}>
                         {
