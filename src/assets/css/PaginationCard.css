@@ -53,12 +53,12 @@
 /* Style de la classe du lien actif */
 .cssALCN {
     color: white;
-    background-color: #008001;
+    background-color: #026302;
     padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
 }
 
-.pageLinkClassName:hover, .breakLinkClassName:hover, .cssALCN:hover{
+.pageLinkClassName:hover, .breakLinkClassName:hover{
     background-color: #026302;
 }
