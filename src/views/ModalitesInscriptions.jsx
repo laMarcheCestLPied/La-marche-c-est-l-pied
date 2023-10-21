@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { currentDate } from '../components/services/currentDate';
 
 const ModalitesInscriptions = () => {
     const [isChecked, setIsChecked] = useState(false);
@@ -12,8 +13,8 @@ const ModalitesInscriptions = () => {
             <ol>
                 <li>
                     Adhésion annuelle : L&apos;adhésion à l&apos;association est valable
-                    pour une année complète à partir de la date d&apos;inscription. Les
-                    frais d&apos;adhésion annuels sont de 32€. Cette cotisation permet de
+                    pour une année (du 1er septembre au 31 juillet) à partir de la date d&apos;inscription. Les
+                    frais d&apos;adhésion annuels sont de 25€ en individuel et de 47€ en familial. Cette cotisation permet de
                     soutenir les activités de l&apos;association et de participer aux
                     sorties de marche régulières.
                 </li>
@@ -39,20 +40,21 @@ const ModalitesInscriptions = () => {
                     l&apos;association &quot;La marche c&apos;est l&apos;pied&quot;, vous
                     bénéficierez d&apos;un accès exclusif à nos sorties de marche
                     régulières, ainsi qu&apos;à nos événements spéciaux et randonnées
-                    thématiques. De plus, nous avons pris des mesures pour assurer votre
+                    thématiques. 
+                    {/* De plus, nous avons pris des mesures pour assurer votre
                     sécurité lors de nos activités. En tant que membre, vous serez couvert
                     par notre assurance responsabilité civile, qui vous protège en cas de
                     dommages matériels ou corporels causés à des tiers dans le cadre des
-                    sorties de marche organisées par l&apos;association.
+                    sorties de marche organisées par l&apos;association. */}
                 </li>
             </ol>
-            <p>
+            {/* <p>
                 Cette assurance responsabilité civile offre une tranquillité d&apos;esprit
                 supplémentaire lors de vos participations aux activités de
                 l&apos;association. Nous veillons à ce que toutes les précautions
                 nécessaires soient prises pour assurer la sécurité et le bien-être de nos
                 membres pendant les sorties de marche.
-            </p>
+            </p> */}
             <p>
                 Nous vous remercions de votre intérêt pour &quot;La marche c&apos;est
                 l&apos;pied&quot;. Si vous avez des questions supplémentaires concernant
@@ -75,7 +77,7 @@ const ModalitesInscriptions = () => {
                 <a href="https://drive.google.com/file/d/100J5dL3dksc1QaanxOTqnUoRgV-2hHon/view?usp=sharing" target="_blank" rel="noreferrer">
                     <button
                         className={`btn-inscription text-white fs-4 ${
-                            isChecked ? 'bg-green' : 'bg-secondary'
+                            isChecked ? currentDate === "31-10" ? "bg-orange" : "bg-green" : 'bg-secondary'
                         }`}
                         disabled={!isChecked}
                     >

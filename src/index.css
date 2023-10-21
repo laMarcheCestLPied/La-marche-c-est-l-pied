@@ -1,6 +1,5 @@
 header,
 footer {
-  background-color: #008001;
   z-index: 9999;
 }
 
@@ -16,8 +15,15 @@ footer {
   background-color: #008001;
 }
 
-.bg-green:hover {
+button.bg-green:hover {
   background-color: #026302;
+}
+
+.bg-orange {
+  background-color: #df6d14;
+}
+button.bg-orange:hover {
+  background-color: #de6609;
 }
 
 body {

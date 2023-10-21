@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { currentDate } from '../components/services/currentDate';
 
 import Bouton from '../components/utils-components/Bouton';
 
@@ -13,9 +14,9 @@ const MentionsLegales = () => {
                     Responsable de publication :
                 </h6>
                 <p>Nom de l&apos;association : La marche c&apos;est l&apos;pied</p>
-                <p>Adresse : [adresse postale de l&apos;association]</p>
-                <p>Numéro de téléphone : [numéro de téléphone]</p>
-                <p>Adresse e-mail : [adresse e-mail de l&apos;association]</p>
+                <p>Adresse : 5 rue de la Mairie, 62320 Rouvroy</p>
+                <p>Numéro de téléphone : 06.09.01.52.87 - 06.61.04.70.56</p>
+                <p>Adresse e-mail : lamarcheclepied@laposte.fr</p>
 
                 {/* <h6 className="text-decoration-underline mt-4">Hébergement du site :</h6>
                 <p>Nom de l&apos;hébergeur : [nom de l&apos;hébergeur]</p>
@@ -64,7 +65,7 @@ const MentionsLegales = () => {
 
             <figure className="text-center">
                 <NavLink to="/La-marche-c-est-l-pied/modalites_inscription">
-                    <Bouton text="S'inscrire" className="bg-green text-white fs-4 me-5" />
+                    <Bouton text="S'inscrire" className={`${currentDate === "31-10" ? "bg-orange" : "bg-green"} text-white fs-4 me-5`} />
                 </NavLink>
             </figure>
         </>

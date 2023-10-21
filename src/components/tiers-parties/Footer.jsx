@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import fleche from '../../assets/img/Fleche haut vert.png';
+import { currentDate } from '../services/currentDate';
 
 const Footer = () => {
     return (
         <footer
-            className={`p-2 d-flex flex-wrap justify-content-evenly align-items-center position-fixed bottom-0 w-100`}
+            className={`p-2 d-flex flex-wrap justify-content-evenly align-items-center position-fixed bottom-0 w-100 ${currentDate === "31-10" ? "bg-orange" : "bg-green"}`}
         >
             <a
                 href="https://www.facebook.com/Lamarchecestlepied/?locale=fr_FR"

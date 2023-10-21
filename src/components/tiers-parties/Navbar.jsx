@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { currentDate } from '../services/currentDate';
+import '../../assets/css/Halloween.css'
 
 import logo from '../../assets/img/logo use.jpg';
 
@@ -10,8 +12,87 @@ const Navbar = () => {
         setMenuOpen(!isMenuOpen);
     };
 
+    function halloween() {
+        return (
+            <><div className='spider_0'>
+                <div className='eye left'></div>
+                <div className='eye right'></div>
+                <span className='leg left'></span>
+                <span className='leg left'></span>
+                <span className='leg left'></span>
+                <span className='leg left'></span>
+                <span className='leg right'></span>
+                <span className='leg right'></span>
+                <span className='leg right'></span>
+                <span className='leg right'></span>
+            </div>
+                <div className='spider_1'>
+                    <div className='eye left'></div>
+                    <div className='eye right'></div>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                </div>
+                <div className='spider_2'>
+                    <div className='eye left'></div>
+                    <div className='eye right'></div>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                </div>
+                <div className='spider_3'>
+                    <div className='eye left'></div>
+                    <div className='eye right'></div>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                </div>
+                <div className='spider_4'>
+                    <div className='eye left'></div>
+                    <div className='eye right'></div>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                </div>
+                <div className='spider_5'>
+                    <div className='eye left'></div>
+                    <div className='eye right'></div>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg left'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                    <span className='leg right'></span>
+                </div></>
+        )
+    }
+
     return (
-        <header className="p-2 d-flex justify-content-between align-items-center text-white" id='haut'>
+        <header className={`p-2 d-flex justify-content-between align-items-center text-white ${currentDate === "31-10" ? "bg-orange" : "bg-green"}`} id='haut'>
+            {currentDate === "31-10" ? halloween() : ""}
+            
             <div className="d-flex align-items-center">
                 <a href="/La-marche-c-est-l-pied">
                     <img src={logo} alt="" height={150} className="rounded-circle" />

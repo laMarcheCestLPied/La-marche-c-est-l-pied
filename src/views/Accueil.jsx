@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import Bouton from '../components/utils-components/Bouton';
 import datas from '../data/parcours.json';
+import { currentDate } from '../components/services/currentDate';
 
 const Accueil = () => {
     const [distanceTotal, setDistanceTotal] = useState(0);
@@ -29,7 +30,7 @@ const Accueil = () => {
 
             <figure className="position-absolute top-50 start-50 translate-middle d-flex">
                 <NavLink to="/La-marche-c-est-l-pied/modalites_inscription" className="me-5">
-                    <Bouton text="S'inscrire" className="bg-green text-white fs-4" />
+                    <Bouton text="S'inscrire" className={`text-white fs-4 ${currentDate === "31-10" ? "bg-orange" : "bg-green"}`} />
                 </NavLink>
                 <NavLink to="/La-marche-c-est-l-pied/parcours" className="nav-link mx-5">
                     <Bouton
@@ -38,7 +39,7 @@ const Accueil = () => {
                     />
                 </NavLink>
                 <NavLink to="/La-marche-c-est-l-pied/contact" className="ms-5">
-                    <Bouton text="Nous contacter" className="bg-green text-white fs-4 " />
+                    <Bouton text="Nous contacter" className={`text-white fs-4 ${currentDate === "31-10" ? "bg-orange" : "bg-green"}`} />
                 </NavLink>
             </figure>
         </div>
