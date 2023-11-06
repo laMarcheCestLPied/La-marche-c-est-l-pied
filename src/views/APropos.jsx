@@ -37,7 +37,7 @@ const APropos = () => {
                 une communauté dynamique et chaleureuse. Nous sommes convaincus que la
                 marche est un moyen formidable de se connecter avec les autres et de
                 tisser des liens durables. Nous organisons également des événements
-                spéciaux, comme des week-ends de marche ou des randonnées thématiques,
+                spéciaux ou des randonnées thématiques,
                 pour offrir encore plus de possibilités de rencontres et de découvertes.
             </p>
 

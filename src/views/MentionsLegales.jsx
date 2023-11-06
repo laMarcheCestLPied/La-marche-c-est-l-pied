@@ -29,11 +29,9 @@ const MentionsLegales = () => {
                 </h6>
                 <p>
                     Tous les contenus présents sur le site de &quot;La marche c&apos;est
-                    l&apos;pied&quot; (textes, images, logos, vidéos, etc.) sont protégés
+                    l&apos;pied&quot; (textes, logos, images, photos, vidéos, etc.) sont protégés
                     par les lois sur la propriété intellectuelle et sont la propriété
-                    exclusive de l&apos;association ou de ses partenaires. Toute
-                    reproduction, représentation, modification ou distribution de ces
-                    contenus sans autorisation préalable écrite est strictement interdite.
+                    exclusive de l&apos;association ou de ses partenaires. Toute utilisation de ces contenus que ce soit: reproduction, représentation, modification,distribution ou autres... sans autorisation préalable écrite de l' association "La Marche c' est l' Pied" est strictement interdite et susceptible de poursuites.
                 </p>
 
                 <h6 className="text-decoration-underline mt-4">Liens externes :</h6>
@@ -58,7 +56,7 @@ const MentionsLegales = () => {
                 <p>
                     Nous vous remercions de votre visite sur notre site. Si vous avez des
                     questions supplémentaires concernant les mentions légales, veuillez
-                    nous contacter à l&apos;adresse <span className='text-primary'>lamarcheclepied@laposte.fr </span> 
+                    nous contacter à l&apos;adresse <span className='text-primary'>lamarcheclepied@laposte.fr </span>
                     ou par téléphone au <span className='fw-bold'>06.09.01.52.87 </span>ou au <span className='fw-bold'>06.61.04.70.56</span>.
                 </p>
             </section>

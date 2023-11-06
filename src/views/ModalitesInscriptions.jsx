@@ -25,8 +25,7 @@ const ModalitesInscriptions = () => {
                     demandées de manière précise et complète.
                 </li>
                 <li>
-                    Paiement : Le paiement des frais d&apos;adhésion peut être effectué
-                    par chèque à remettre à notre secrétaire ou trésorier.
+                    Paiement : Le paiement des frais d'adhésion peut être effectué par chèque ou en espèces à remettre à l' un des membres du bureau ( trésorier, secrétaire, président).
                 </li>
                 <li>
                     Confirmation d&apos;adhésion : Une fois votre formulaire
@@ -40,21 +39,9 @@ const ModalitesInscriptions = () => {
                     l&apos;association &quot;La marche c&apos;est l&apos;pied&quot;, vous
                     bénéficierez d&apos;un accès exclusif à nos sorties de marche
                     régulières, ainsi qu&apos;à nos événements spéciaux et randonnées
-                    thématiques. 
-                    {/* De plus, nous avons pris des mesures pour assurer votre
-                    sécurité lors de nos activités. En tant que membre, vous serez couvert
-                    par notre assurance responsabilité civile, qui vous protège en cas de
-                    dommages matériels ou corporels causés à des tiers dans le cadre des
-                    sorties de marche organisées par l&apos;association. */}
+                    thématiques.
                 </li>
             </ol>
-            {/* <p>
-                Cette assurance responsabilité civile offre une tranquillité d&apos;esprit
-                supplémentaire lors de vos participations aux activités de
-                l&apos;association. Nous veillons à ce que toutes les précautions
-                nécessaires soient prises pour assurer la sécurité et le bien-être de nos
-                membres pendant les sorties de marche.
-            </p> */}
             <p>
                 Nous vous remercions de votre intérêt pour &quot;La marche c&apos;est
                 l&apos;pied&quot;. Si vous avez des questions supplémentaires concernant
@@ -76,9 +63,8 @@ const ModalitesInscriptions = () => {
                 </label>
                 <a href="https://drive.google.com/file/d/100J5dL3dksc1QaanxOTqnUoRgV-2hHon/view?usp=sharing" target="_blank" rel="noreferrer">
                     <button
-                        className={`btn-inscription text-white fs-4 ${
-                            isChecked ? currentDate === "31-10" ? "bg-orange" : "bg-green" : 'bg-secondary'
-                        }`}
+                        className={`btn-inscription text-white fs-4 ${isChecked ? currentDate === "31-10" ? "bg-orange" : "bg-green" : 'bg-secondary'
+                            }`}
                         disabled={!isChecked}
                     >
                         Télécharger le document d'inscription
