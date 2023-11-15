@@ -35,7 +35,7 @@ const ModalitesInscriptions = () => {
                 </li>
                 {/* <li></li> */}
                 <li>
-                    Avantages réservés aux membres et assurances : En tant que membre de
+                    Avantages réservés aux membres : En tant que membre de
                     l&apos;association &quot;La marche c&apos;est l&apos;pied&quot;, vous
                     bénéficierez d&apos;un accès exclusif à nos sorties de marche
                     régulières, ainsi qu&apos;à nos événements spéciaux et randonnées

@@ -16,7 +16,7 @@ const MentionsLegales = () => {
                 <p>Nom de l&apos;association : La marche c&apos;est l&apos;pied</p>
                 <p>Adresse : <a href='https://www.google.com/maps/dir//50.393427,2.903673/' className='text-dark'>5 rue de la Mairie, 62320 Rouvroy</a></p>
                 <p>Numéro de téléphone : <span className='fw-bold'>06.09.01.52.87 </span> - <span className='fw-bold'>06.61.04.70.56</span></p>
-                <p>Adresse e-mail : <span className='text-primary'>lamarcheclepied@laposte.fr</span></p>
+                <p>Adresse e-mail : <span className='text-primary'>lamarcheclepied@laposte.net</span></p>
 
                 {/* <h6 className="text-decoration-underline mt-4">Hébergement du site :</h6>
                 <p>Nom de l&apos;hébergeur : [nom de l&apos;hébergeur]</p>
@@ -56,7 +56,7 @@ const MentionsLegales = () => {
                 <p>
                     Nous vous remercions de votre visite sur notre site. Si vous avez des
                     questions supplémentaires concernant les mentions légales, veuillez
-                    nous contacter à l&apos;adresse <span className='text-primary'>lamarcheclepied@laposte.fr </span>
+                    nous contacter à l&apos;adresse <span className='text-primary'>lamarcheclepied@laposte.net </span>
                     ou par téléphone au <span className='fw-bold'>06.09.01.52.87 </span>ou au <span className='fw-bold'>06.61.04.70.56</span>.
                 </p>
             </section>
