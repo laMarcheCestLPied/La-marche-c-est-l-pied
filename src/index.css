@@ -12,22 +12,22 @@ footer {
 }
 
 .bg-green {
-  background-color: #008001;
+  background-color: #008001 !important;
 }
 
 button.bg-green:hover {
-  background-color: #026302;
+  background-color: #026302 !important;
 }
 
 .bg-orange {
-  background-color: #df6d14;
+  background-color: #df6d14 !important;
 }
 button.bg-orange:hover {
-  background-color: #de6609;
+  background-color: #de6609 !important;
 }
 
 body {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif !important;
   overflow-x: hidden;
 }
 
