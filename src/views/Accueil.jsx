@@ -28,7 +28,7 @@ const Accueil = () => {
                 {distanceTotal}km ont déjà été parcourus depuis janvier 2023 !
             </h3>
 
-            <figure className="position-absolute top-50 start-50 translate-middle d-flex">
+            <figure className="position-absolute top-50 start-50 translate-middle d-flex tel">
                 <NavLink to="/La-marche-c-est-l-pied/modalites_inscription" className="me-5">
                     <Bouton text="S'inscrire" className={`text-white fs-4 ${currentDate === "31-10" ? "bg-orange" : "bg-green"}`} />
                 </NavLink>
