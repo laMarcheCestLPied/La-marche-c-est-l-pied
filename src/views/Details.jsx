@@ -57,7 +57,7 @@ const Details = () => {
                                     key={index}
                                 >
                                     <img
-                                        src={`${process.env.PUBLIC_URL}/assets/img/${image}`}
+                                        src={image}
                                         className="d-block mx-auto"
                                         alt={`Slide ${index}`}
                                         style={{ maxWidth: '100%', maxHeight: '700px' }}

@@ -16,7 +16,7 @@ import RedirectToHome from './views/RedirectToHome';
 const App = () => {
     return (
         <>
-            <RedirectToHome />
+            {/* <RedirectToHome /> */}
             <BrowserRouter>
                 <Navbar />
                 <main>
