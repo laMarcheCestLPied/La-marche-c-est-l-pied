@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Card = ({ data }) => {
     const [limit, setLimit] = useState(0);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    const [finish, setFinish] = useState(false);
 
     useEffect(() => {
         const handleResize = () => {
@@ -22,7 +23,7 @@ const Card = ({ data }) => {
 
         const loadImage = (imageSrc) => {
             const image = new Image();
-            image.src = `${process.env.PUBLIC_URL}/assets/img/${imageSrc}`;
+            image.src = imageSrc;
             image.onload = () => {
                 const width = (image.naturalWidth * 250) / image.naturalHeight;
                 sumImageWidth += width;
@@ -35,6 +36,7 @@ const Card = ({ data }) => {
                     }
                 } else {
                     setLimit(newLimit);
+                    setFinish(true)
                     return;
                 }
             };
@@ -42,10 +44,13 @@ const Card = ({ data }) => {
 
         for (let i = 0; i < 10; i++) {
             loadImage(data.photos[i]);
+            if (finish) {
+                break;
+            }
         }
 
         setLimit(newLimit);
-    }, [data.photos, screenWidth]);
+    }, [data.photos, screenWidth, finish]);
 
     function changeFormateDate(oldDate) {
         return oldDate.toString().split('-').reverse().join('/');
@@ -60,10 +65,17 @@ const Card = ({ data }) => {
             <p className="mx-5">{data.description}</p>
             <figure className="d-flex justify-content-evenly">
                 {data.photos.slice(0, limit - 1).map((photo) => (
+                    // <img
+                    //     className="me-3"
+                    //     key={photo}
+                    //     src={`${process.env.PUBLIC_URL}/assets/img/${photo}`}
+                    //     alt={photo}
+                    //     height={250}
+                    // />
                     <img
                         className="me-3"
                         key={photo}
-                        src={`${process.env.PUBLIC_URL}/assets/img/${photo}`}
+                        src={photo}
                         alt={photo}
                         height={250}
                     />
