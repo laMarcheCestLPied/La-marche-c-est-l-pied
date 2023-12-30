@@ -16,6 +16,21 @@ const Evenements = () => {
     const currentItems = sortItems.slice(itemOffset, endOffset);
     const [activeTab, setActiveTab] = useState('tab1');
 
+    const imageLoad = (data) => {
+        let datasPhotoLength = 0;
+        if (data.photos.length < 5) {
+            datasPhotoLength = data.photos.length;
+        } else {
+            datasPhotoLength = 5;
+        }
+        let datasPhoto = [];
+        for (let i = 0; i < datasPhotoLength; i++) {
+            datasPhoto.push(data.photos[i]);
+        }
+        return datasPhoto
+
+    };
+
     const handlePageClick = (event) => {
         const newOffset = (event.selected * itemsPerPage) % datas.length;
         setItemOffset(newOffset);
@@ -77,7 +92,7 @@ const Evenements = () => {
                                                 to={`/La-marche-c-est-l-pied/details?evenements#${data.date}${data.alternative ? '&' + data.lieu : ''}`}
                                                 className="nav-link text-black"
                                             >
-                                                <Card data={data} />
+                                                <Card data={data} datasPhoto={imageLoad(data)} />
                                             </NavLink>
                                         </article>
                                     </div>

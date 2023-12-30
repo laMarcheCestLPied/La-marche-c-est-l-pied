@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Card = ({ data }) => {
+const Card = ({ data, datasPhoto }) => {
     const [limit, setLimit] = useState(0);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const [finish, setFinish] = useState(false);
@@ -30,7 +30,7 @@ const Card = ({ data }) => {
 
                 if (sumImageWidth < screenWidth - newLimit*50) {
                     newLimit++;
-                    if (data.photos.length === 1) {
+                    if (datasPhoto.length === newLimit) {
                         newLimit++;
                         setLimit(newLimit);
                     }
@@ -42,15 +42,15 @@ const Card = ({ data }) => {
             };
         };
 
-        for (let i = 0; i < 10; i++) {
-            loadImage(data.photos[i]);
+        for (let i = 0; i < datasPhoto.length; i++) {
+            loadImage(datasPhoto[i]);
             if (finish) {
                 break;
             }
         }
 
         setLimit(newLimit);
-    }, [data.photos, screenWidth, finish]);
+    }, [screenWidth, finish, datasPhoto]);
 
     function changeFormateDate(oldDate) {
         return oldDate.toString().split('-').reverse().join('/');
@@ -64,14 +64,7 @@ const Card = ({ data }) => {
             </div>
             <p className="mx-5">{data.description}</p>
             <figure className="d-flex justify-content-evenly">
-                {data.photos.slice(0, limit - 1).map((photo) => (
-                    // <img
-                    //     className="me-3"
-                    //     key={photo}
-                    //     src={`${process.env.PUBLIC_URL}/assets/img/${photo}`}
-                    //     alt={photo}
-                    //     height={250}
-                    // />
+                {datasPhoto.slice(0, limit).map((photo) => (
                     <img
                         className="me-3"
                         key={photo}

@@ -7,11 +7,22 @@ import PaginationCard from './../components/utils-components/PaginationCard';
 import { useState } from 'react';
 
 const Parcours = () => {
+    
     const [itemsPerPage, setItemsPerPage] = useState(5);
     const [itemOffset, setItemOffset] = useState(0);
     const endOffset = itemOffset + itemsPerPage;
     const sortItems = datas.sort((a, b) => new Date(b.date) - new Date(a.date));
     const currentItems = sortItems.slice(itemOffset, endOffset);
+
+    const imageLoad = (data) => {
+        let datasPhoto = [];
+        for (let i = 0; i < 5; i++) {
+            datasPhoto.push(data.photos[i]);
+        }
+        return datasPhoto
+        
+    };
+    
 
     const handlePageClick = (event) => {
         const newOffset = (event.selected * itemsPerPage) % datas.length;
@@ -30,7 +41,7 @@ const Parcours = () => {
                                 to={`/La-marche-c-est-l-pied/details?parcours#${data.date}${data.alternative ? '&'+data.lieu : ''}`}
                                 className="nav-link text-black"
                             >
-                                <Card data={data} />
+                                <Card data={data} datasPhoto={imageLoad(data)} />
                             </NavLink>
                         </article>
                     </div>
