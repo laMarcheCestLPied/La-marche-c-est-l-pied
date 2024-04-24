@@ -20,37 +20,48 @@ const Card = ({ data, datasPhoto }) => {
     useEffect(() => {
         let sumImageWidth = 0;
         let newLimit = 0;
-
+        let loadError = false;
+    
         const loadImage = (imageSrc) => {
-            const image = new Image();
-            image.src = imageSrc;
-            image.onload = () => {
-                const width = (image.naturalWidth * 250) / image.naturalHeight;
-                sumImageWidth += width;
-
-                if (sumImageWidth < screenWidth - newLimit*50) {
-                    newLimit++;
-                    if (datasPhoto.length === newLimit) {
+            return new Promise((resolve) => {
+                const image = new Image();
+                image.src = imageSrc;
+                image.onload = () => {
+                    const width = (image.naturalWidth * 250) / image.naturalHeight;
+                    sumImageWidth += width;
+    
+                    if (!loadError && sumImageWidth < screenWidth - newLimit * 50) {
                         newLimit++;
+                        if (datasPhoto.length === newLimit) {
+                            newLimit++;
+                            setLimit(newLimit);
+                        }
+                        resolve();
+                    } else {
                         setLimit(newLimit);
+                        setFinish(true);
                     }
-                } else {
-                    setLimit(newLimit);
-                    setFinish(true)
-                    return;
-                }
-            };
+                };
+                image.onerror = () => {
+                    loadError = true;
+                    setFinish(true);
+                    resolve(); // Resolve même en cas d'erreur pour ne pas bloquer l'exécution
+                };
+            });
         };
-
-        for (let i = 0; i < datasPhoto.length; i++) {
-            loadImage(datasPhoto[i]);
-            if (finish) {
-                break;
+    
+        const loadImagesSequentially = async () => {
+            for (let i = 0; i < datasPhoto.length; i++) {
+                await loadImage(datasPhoto[i]);
+                if (finish) {
+                    break;
+                }
             }
-        }
-
-        setLimit(newLimit);
-    }, [screenWidth, finish, datasPhoto]);
+        };
+    
+        loadImagesSequentially();
+    
+    }, [screenWidth, datasPhoto]);
 
     function changeFormateDate(oldDate) {
         return oldDate.toString().split('-').reverse().join('/');
