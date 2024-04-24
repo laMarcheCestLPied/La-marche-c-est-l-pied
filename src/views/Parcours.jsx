@@ -31,6 +31,7 @@ const Parcours = () => {
 
     return (
         <section className="p-3">
+            
             {currentItems
                 .map((data, index) => (
                     <div key={index}>
