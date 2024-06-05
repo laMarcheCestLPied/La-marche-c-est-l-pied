@@ -170,5 +170,21 @@
             "https://i.imgur.com/GiJ6NOe.jpg",
             "https://i.imgur.com/imqWh3n.jpg"
         ]
+    },
+    {
+        "date": "2024-06-01",
+        "lieu": "Rouvroy",
+        "positions": [
+            [
+                50.393427,
+                2.903673
+            ]
+        ],
+        "nbPersonnes": 9,
+        "type": "marche aux puces",
+        "description": "La marche c'est l'pied a organisé ce samedi 01 Juin 2024 son marché aux puces. 🤩🤩 Un grand merci aux bénévoles qui étaient présent Christian, Patricia, Léa, Viviane, Michel, Sylvie, Isabelle, Carole, Pascal, Mathias, Evelyne, Domy et Valérie. Rendez vous l'année prochaine 😉😉😉",
+        "photos": [
+            "https://i.imgur.com/OdW9nu4.jpg"
+        ]
     }
 ]

@@ -40,12 +40,12 @@ const Evenements = () => {
     const prochainements = [
         {
             type: "interclub personnel",
-            date: "7 Avril 2024",
+            date: "Prochainement en 2025",
             lieu: "Rouvroy"
         },
         {
             type: "marche aux puces",
-            date: "1er Juin 2024",
+            date: "Prochainement en 2025",
             lieu: "Rouvroy"
         },
     ]
