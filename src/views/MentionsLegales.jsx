@@ -31,7 +31,7 @@ const MentionsLegales = () => {
                     Tous les contenus présents sur le site de &quot;La marche c&apos;est
                     l&apos;pied&quot; (textes, logos, images, photos, vidéos, etc.) sont protégés
                     par les lois sur la propriété intellectuelle et sont la propriété
-                    exclusive de l&apos;association ou de ses partenaires. Toute utilisation de ces contenus que ce soit: reproduction, représentation, modification,distribution ou autres... sans autorisation préalable écrite de l' association "La Marche c' est l' Pied" est strictement interdite et susceptible de poursuites.
+                    exclusive de l&apos;association ou de ses partenaires. Toute utilisation de ces contenus que ce soit: reproduction, représentation, modification, distribution ou autres... sans autorisation préalable écrite de l'association "La Marche c'est l'Pied" est strictement interdite et susceptible de poursuites.
                 </p>
 
                 <h6 className="text-decoration-underline mt-4">Liens externes :</h6>
