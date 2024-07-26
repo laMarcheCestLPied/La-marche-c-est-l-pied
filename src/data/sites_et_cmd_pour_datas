@@ -23,5 +23,6 @@ Pour envoyer les ajouts/modifications :
     3. Cliquer sur la fleche vers le bas puis sur "Validation et envoi (push)"
     4. Cliquer sur oui dans la popup.
     5. Patienter quelques instants.
+    6. Et c'est bon ! (Si une erreur apparait, prévenez Romain ;-) )
 
 Après avoir envoyé les ajouts/modifications, pour déployer le site : npm run deploy
