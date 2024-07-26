@@ -34,6 +34,13 @@ const App = () => {
                         <Route path="/La-marche-c-est-l-pied" exact element={<Accueil />} />
                         {/* <Route path="*" element={<Error />} /> */}
                     </Routes>
+                    <div className='d-block d-sm-none'>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </div>
                 </main>
                 <Footer />
             </BrowserRouter>
