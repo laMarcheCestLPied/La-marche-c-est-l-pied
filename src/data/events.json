@@ -186,5 +186,41 @@
         "photos": [
             "https://i.imgur.com/OdW9nu4.jpg"
         ]
+    },
+    {
+        "date": "2024-06-29",
+        "lieu": "Rouvroy",
+        "positions": [
+            [
+                50.405511,
+                2.912955
+            ]
+        ],
+        "nbPersonnes": 13,
+        "description": "Le 29 Juin 2024 s'est déroulée notre assemblée générale en présence des membres de la mairie dans une bonne ambiance conviviale et de bonne humeur avec un buffet froid au TOP et des gâteaux fait maison par des adhérentes du club",
+        "type": "ag",
+        "photos": [
+            "https://i.imgur.com/ZvAGaYr.jpg",
+            "https://i.imgur.com/Uw1wgmD.jpg",
+            "https://i.imgur.com/yJjuwtk.jpg",
+            "https://i.imgur.com/DGnrzK3.jpg",
+            "https://i.imgur.com/WLSZacb.jpg",
+            "https://i.imgur.com/aEmzulm.jpg",
+            "https://i.imgur.com/avIv1CD.jpg",
+            "https://i.imgur.com/Xm6njed.jpg",
+            "https://i.imgur.com/geVS7tj.jpg",
+            "https://i.imgur.com/YbwvsI8.jpg",
+            "https://i.imgur.com/SmIBAL3.jpg",
+            "https://i.imgur.com/eIjHbMl.jpg",
+            "https://i.imgur.com/QRmLFcr.jpg",
+            "https://i.imgur.com/wNid1dc.jpg",
+            "https://i.imgur.com/Icrr4XV.jpg",
+            "https://i.imgur.com/oBH0VsE.jpg",
+            "https://i.imgur.com/sRy2nT2.jpg",
+            "https://i.imgur.com/yHw4Es6.jpg",
+            "https://i.imgur.com/6LWRg9Q.jpg",
+            "https://i.imgur.com/w6ePQnH.jpg",
+            "https://i.imgur.com/zahEqIm.jpg"
+        ]
     }
 ]

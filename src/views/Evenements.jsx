@@ -86,6 +86,9 @@ const Evenements = () => {
                                         {data.type === 'interclub personnel' && (
                                             <h3>Interclub personnel</h3>
                                         )}
+                                        {data.type === 'ag' && (
+                                            <h3>Assemblée Générale</h3>
+                                        )}
 
                                         <article className="border m-2 p-2">
                                             <NavLink

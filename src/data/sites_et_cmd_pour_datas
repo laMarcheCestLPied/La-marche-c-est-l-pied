@@ -1,0 +1,27 @@
+Le facebook du club pour les photos: https://www.facebook.com/Lamarchecestlepied
+
+Pour obtenir les coordonnées d'une ville: https://www.coordonnees-gps.fr/
+
+Site pour mettre les photos à afficher : https://domlamarche.imgur.com/all
+
+Le compte gmail: lamarcheclpied1@gmail.com 
+                 (le mot de passe sera donné autrement qu'ici)
+
+
+_____________________________________________________________________________________
+
+
+Commandes:
+
+Pour lancer en local : npm start
+Lien du site local : http://localhost:3000/La-marche-c-est-l-pied
+(Ca sert à vérifier si tout va bien)
+
+Pour envoyer les ajouts/modifications : 
+    1. Cliquer sur le 3e icone sur la gauche
+    2. Remplir le champs "Message". Exemple de message : "Ajout photos event 29/06/2024". Cela sera pratique si on repere des problemes futurs.
+    3. Cliquer sur la fleche vers le bas puis sur "Validation et envoi (push)"
+    4. Cliquer sur oui dans la popup.
+    5. Patienter quelques instants.
+
+Après avoir envoyé les ajouts/modifications, pour déployer le site : npm run deploy
