@@ -14,7 +14,7 @@ const ModalitesInscriptions = () => {
                 <li>
                     Adhésion annuelle : L&apos;adhésion à l&apos;association est valable
                     pour une année (du 1er septembre au 31 juillet) à partir de la date d&apos;inscription. Les
-                    frais d&apos;adhésion annuels sont de 25€ en individuel et de 47€ en familial. Cette cotisation permet de
+                    frais d&apos;adhésion annuels sont de 28€ en individuel et de 53€ en familial. Cette cotisation permet de
                     soutenir les activités de l&apos;association et de participer aux
                     sorties de marche régulières.
                 </li>
@@ -61,7 +61,7 @@ const ModalitesInscriptions = () => {
                     />
                     En cochant cette case vous acceptez les modalités d’inscription
                 </label>
-                <a href="https://drive.google.com/file/d/100J5dL3dksc1QaanxOTqnUoRgV-2hHon/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/10m8NS4uqce1dDYCpSCWrbPieBx6Ryy_Q/view?usp=sharing" target="_blank" rel="noreferrer">
                     <button
                         className={`btn-inscription text-white fs-4 ${isChecked ? currentDate === "31-10" ? "bg-orange" : "bg-green" : 'bg-secondary'
                             }`}
