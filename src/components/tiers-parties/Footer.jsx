@@ -4,6 +4,7 @@ import fleche from '../../assets/img/Fleche haut vert.png';
 import { currentDate } from '../services/currentDate';
 
 const Footer = () => {
+    const annee = new Date().getFullYear();
     return (
         <footer
             className={`p-2 d-flex flex-wrap justify-content-evenly align-items-center position-fixed bottom-0 w-100 ${currentDate === "31-10" ? "bg-orange" : "bg-green"}`}
@@ -36,7 +37,7 @@ const Footer = () => {
             </NavLink>
 
             <div className="text-white text-decoration-none pe-none order-sm-0 order-last mt-3 mt-sm-0">
-                Copyright © 2023 La Marche c’est l’pied
+                Copyright © {annee} La Marche c’est l’pied
             </div>
 
             <NavLink

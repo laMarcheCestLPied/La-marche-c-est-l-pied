@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 import PaginationCard from '../components/utils-components/PaginationCard';
 
 const Evenements = () => {
-    const [itemsPerPage, setItemsPerPage] = useState(5);
+    const [itemsPerPage] = useState(5);
     const [itemOffset, setItemOffset] = useState(0);
     const endOffset = itemOffset + itemsPerPage;
     const sortItems = datas.sort((a, b) => new Date(b.date) - new Date(a.date));
