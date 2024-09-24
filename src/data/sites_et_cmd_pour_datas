@@ -12,6 +12,7 @@ Si c'est la premiere fois que tu dois prendre le projet sur cet ordinateur,
 9) Si l'installation a été bien réalisée, il est normalement possible de faire un clique droit sur dossier du projet et de cliquer sur "Ouvrir avec Code" (sur Windows 11, il faut cliquer sur "plus d'options" puis "Ouvrir avec Code")
 
 10) Félicitations, vous avez bientot fini ! Ouvrir le terminal avec le raccourci Ctrl+ù en meme temps
+--installer node
 11) Mettre la commande suivante : npm install
 12) Et c'est fini !
 
