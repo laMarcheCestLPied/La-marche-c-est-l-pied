@@ -61,7 +61,7 @@ const ModalitesInscriptions = () => {
                     />
                     En cochant cette case vous acceptez les modalités d’inscription
                 </label>
-                <a href="https://drive.google.com/file/d/10m8NS4uqce1dDYCpSCWrbPieBx6Ryy_Q/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1AZMslfSaAEItV-9w1lmwBz_kjKv-eH0R/view?usp=sharing" target="_blank" rel="noreferrer">
                     <button
                         className={`btn-inscription text-white fs-4 ${isChecked ? currentDate === "31-10" ? "bg-orange" : "bg-green" : 'bg-secondary'
                             }`}

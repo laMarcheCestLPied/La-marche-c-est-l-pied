@@ -89,6 +89,9 @@ const Evenements = () => {
                                         {data.type === 'ag' && (
                                             <h3>Assemblée Générale</h3>
                                         )}
+                                        {data.type === 'pub' && (
+                                            <h3>Publicité</h3>
+                                        )}
 
                                         <article className="border m-2 p-2">
                                             <NavLink
