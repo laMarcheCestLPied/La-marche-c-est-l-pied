@@ -2376,5 +2376,62 @@
             "https://i.imgur.com/kbwtVlj.jpg",
             "https://i.imgur.com/63eQhz7.jpg"
         ]
+    },
+    {
+        "date": "2024-11-03",
+        "lieu": "Carvin",
+        "positions": [
+            [
+                50.493415,
+                2.957752
+            ]
+        ],
+        "nbPersonnes": 11,
+        "distance": 10,
+        "description": "Le club a participé à l'interclub de BAZ CARVIN le 03 novembre 2024 avec 11 participants et deux nouveaux arrivés photos prises par Sylvie et Emmanuelle 😉",
+        "photos": [
+            "https://i.imgur.com/V5tWnOE.jpg",
+            "https://i.imgur.com/uFaRRlh.jpg",
+            "https://i.imgur.com/7FXsmny.jpg",
+            "https://i.imgur.com/QgIl3sf.jpg",
+            "https://i.imgur.com/2CEG08A.jpg",
+            "https://i.imgur.com/8Ki0Thv.jpg",
+            "https://i.imgur.com/EQrFe8X.jpg",
+            "https://i.imgur.com/lPwmgM7.jpg",
+            "https://i.imgur.com/VPuwhV9.jpg",
+            "https://i.imgur.com/ra2GJyo.jpg",
+            "https://i.imgur.com/yT23iki.jpg",
+            "https://i.imgur.com/MvCmHri.jpg",
+            "https://i.imgur.com/9hKZuhl.jpg",
+            "https://i.imgur.com/a6FYgNG.jpg"
+        ]
+    },
+    {
+        "date": "2024-11-11",
+        "lieu": "Rouvroy",
+        "positions": [
+            [
+                50.393427,
+                2.903673
+            ]
+        ],
+        "nbPersonnes": 5,
+        "distance": 0,
+        "description": "Le club a participé à la cérémonie du 11 novembre à Rouvroy",
+        "photos": [
+            "https://i.imgur.com/GvmPlzB.jpg",
+            "https://i.imgur.com/YH0yYeg.jpg",
+            "https://i.imgur.com/qhzWncm.jpg",
+            "https://i.imgur.com/xHNct8A.jpg",
+            "https://i.imgur.com/W7DjUTE.jpg",
+            "https://i.imgur.com/xidp8aO.jpg",
+            "https://i.imgur.com/4u8s7hc.jpg",
+            "https://i.imgur.com/xUg97Mk.jpg",
+            "https://i.imgur.com/WMukwa9.jpg",
+            "https://i.imgur.com/F9HARYc.jpg",
+            "https://i.imgur.com/4vSrjin.jpg",
+            "https://i.imgur.com/gjFfvmO.jpg",
+            "https://i.imgur.com/eRfxsM8.jpg"
+        ]
     }
 ]
