@@ -2473,5 +2473,43 @@
             "https://i.imgur.com/wIbHIfq.jpg",
             "https://i.imgur.com/VXJUp2r.jpg"
         ]
+    },
+    {
+        "date": "2024-11-24",
+        "lieu": "Quiéry-la-Motte",
+        "positions": [
+            [
+                50.365563,
+                2.977267
+            ]
+        ],
+        "nbPersonnes": 11,
+        "distance": 8,
+        "description": "Sortie du club à QUIERY LA MOTTE avec 11 marcheurs assez venteux mais sans pluie. Photos prises par Léa",
+        "photos": [
+            "https://i.imgur.com/fblclLC.jpg",
+            "https://i.imgur.com/uKIwMjm.jpg",
+            "https://i.imgur.com/wjLc4aF.jpg",
+            "https://i.imgur.com/f3iuJvx.jpg",
+            "https://i.imgur.com/f0WwFbj.jpg",
+            "https://i.imgur.com/AH6AXzg.jpg",
+            "https://i.imgur.com/54i1gre.jpg",
+            "https://i.imgur.com/ulwO7SQ.jpg",
+            "https://i.imgur.com/r1hXYQK.jpg",
+            "https://i.imgur.com/tmutqEZ.jpg",
+            "https://i.imgur.com/tZJIeGy.jpg",
+            "https://i.imgur.com/GiPNZQ7.jpg",
+            "https://i.imgur.com/1q7GyOK.jpg",
+            "https://i.imgur.com/BoQAuaD.jpg",
+            "https://i.imgur.com/SpWEXyL.jpg",
+            "https://i.imgur.com/o8mzn27.jpg",
+            "https://i.imgur.com/vgUBJqN.jpg",
+            "https://i.imgur.com/QZINO3M.jpg",
+            "https://i.imgur.com/t9sya7e.jpg",
+            "https://i.imgur.com/yEUCkgW.jpg",
+            "https://i.imgur.com/TndsDN9.jpg",
+            "https://i.imgur.com/4CD614G.jpg",
+            "https://i.imgur.com/IWGhqrz.jpg"
+        ]
     }
 ]
