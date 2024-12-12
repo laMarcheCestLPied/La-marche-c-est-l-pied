@@ -2511,5 +2511,67 @@
             "https://i.imgur.com/4CD614G.jpg",
             "https://i.imgur.com/IWGhqrz.jpg"
         ]
+    },
+    {
+        "date": "2024-11-30",
+        "lieu": "Fresnoy-en-Gohelle",
+        "positions": [
+            [
+                50.365537,
+                2.889119
+            ]
+        ],
+        "nbPersonnes": 6,
+        "distance": 7,
+        "description": "Sortie le 30/11/2024 à FRESNOY EN GOHELLE avec 6 marcheurs photos prises par Evelyne",
+        "photos": [
+            "https://i.imgur.com/vGfcrJi.jpg",
+            "https://i.imgur.com/vuAun6B.jpg",
+            "https://i.imgur.com/8CTVRya.jpg",
+            "https://i.imgur.com/3tj2BBY.jpg",
+            "https://i.imgur.com/KkID4e1.jpg",
+            "https://i.imgur.com/NzUQJn0.jpg"
+        ]
+    },
+    {
+        "date": "2024-12-07",
+        "lieu": "Arras",
+        "positions": [
+            [
+                50.291048,
+                2.777221
+            ]
+        ],
+        "nbPersonnes": 5,
+        "distance": 0,
+        "description": "Comme tous les ans le club a participé à Arras en Lumière et le marché de noël avec 5 marcheurs qui ont osés affronter la pluie et le vent avec une vigilance orange dans la joie et la bonne humeur. Photos prises par Nathalie B et Evelyne 😉",
+        "photos": [
+            "https://i.imgur.com/V2IcGYh.jpg",
+            "https://i.imgur.com/lk6PiIh.jpg",
+            "https://i.imgur.com/EccPdnd.jpg",
+            "https://i.imgur.com/WZDnZlf.jpg",
+            "https://i.imgur.com/BvYNxYR.jpg",
+            "https://i.imgur.com/ek1MOYF.jpg",
+            "https://i.imgur.com/ui6mJrJ.jpg",
+            "https://i.imgur.com/tWXIdHb.jpg",
+            "https://i.imgur.com/D0WQ4Zm.jpg",
+            "https://i.imgur.com/wROuEyJ.jpg",
+            "https://i.imgur.com/BHDWw05.jpg",
+            "https://i.imgur.com/AstvkkV.jpg",
+            "https://i.imgur.com/ciLeqLW.jpg",
+            "https://i.imgur.com/b7ZZ9ye.jpg",
+            "https://i.imgur.com/eP9C1cb.jpg",
+            "https://i.imgur.com/pIw9Ste.jpg",
+            "https://i.imgur.com/NJMZGtl.jpg",
+            "https://i.imgur.com/u03eHB8.jpg",
+            "https://i.imgur.com/S18hjge.jpg",
+            "https://i.imgur.com/xxuChJo.jpg",
+            "https://i.imgur.com/kxnim2h.jpg",
+            "https://i.imgur.com/LcUqOAL.jpg",
+            "https://i.imgur.com/Xto4cBI.jpg",
+            "https://i.imgur.com/UqsNUJe.jpg",
+            "https://i.imgur.com/lds8ky2.jpg",
+            "https://i.imgur.com/anaWsoY.jpg"
+        ]
     }
 ]
