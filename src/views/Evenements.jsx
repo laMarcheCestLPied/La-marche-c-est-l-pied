@@ -45,7 +45,7 @@ const Evenements = () => {
         },
         {
             type: "marche aux puces",
-            date: "Prochainement en 2025",
+            date: "Samedi 24 mai 2025",
             lieu: "Rouvroy"
         },
     ]
