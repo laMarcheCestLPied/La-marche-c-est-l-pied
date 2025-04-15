@@ -3053,5 +3053,33 @@
             "https://i.imgur.com/7IFnqJi.jpg",
             "https://i.imgur.com/rOJ43tK.jpg"
         ]
+    },
+    {
+        "date": "2025-04-13",
+        "lieu": "Hénin Beaumont",
+        "positions": [
+            [
+                50.419172,
+                2.946934
+            ]
+        ],
+        "nbPersonnes": 11,
+        "distance": 7,
+        "description": "Belle sortie le 13 Avril 2025 sur Hénin Beaumont animé par Emmanuelle et secondé par Mickael dans la joie et la bonne humeur avec 11 marcheurs. Photos prise par Nathalie B 😉",
+        "photos": [
+            "https://i.imgur.com/bw58ZMy.jpg",
+            "https://i.imgur.com/d6w6KB3.jpg",
+            "https://i.imgur.com/5VCgepU.jpg",
+            "https://i.imgur.com/HBwE64g.jpg",
+            "https://i.imgur.com/3Oexy5E.jpg",
+            "https://i.imgur.com/l4Ge1zI.jpg",
+            "https://i.imgur.com/J2A8g2D.jpg",
+            "https://i.imgur.com/GcjYIDa.jpg",
+            "https://i.imgur.com/KxznrIw.jpg",
+            "https://i.imgur.com/SCWWs94.jpg",
+            "https://i.imgur.com/hUqLJkM.jpg",
+            "https://i.imgur.com/kNrqNkB.jpg",
+            "https://i.imgur.com/ASMNSVm.jpg"
+        ]
     }
 ]
