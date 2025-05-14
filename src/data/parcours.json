@@ -3131,7 +3131,7 @@
         ]
     },
     {
-        "date": "2025-04-27",
+        "date": "2025-05-04",
         "lieu": "Quiéry-la-Motte",
         "positions": [
             [
@@ -3175,6 +3175,42 @@
             "https://i.imgur.com/zpaMs1F.jpg",
             "https://i.imgur.com/cMBCXNe.jpg",
             "https://i.imgur.com/glM4JsZ.jpg"
+        ]
+    },
+    {
+        "date": "2025-05-08",
+        "lieu": "Rouvroy",
+        "positions": [
+            [
+                50.393427,
+                2.903673
+            ]
+        ],
+        "nbPersonnes": 8,
+        "distance": 7,
+        "description": "Le club est sortie sur Rouvroy pour un 7 km avec au programme le beau temps et la bonne humeur Photos prise par Christian😉",
+        "photos": [
+            "https://i.imgur.com/vEgjpHj.jpg",
+            "https://i.imgur.com/f5C8w8g.jpg",
+            "https://i.imgur.com/lymvi3u.jpg",
+            "https://i.imgur.com/61JroSJ.jpg",
+            "https://i.imgur.com/dCG8geQ.jpg",
+            "https://i.imgur.com/wFRhWSV.jpg",
+            "https://i.imgur.com/JinI0ye.jpg",
+            "https://i.imgur.com/Ry0bAUo.jpg",
+            "https://i.imgur.com/O8vpyQW.jpg",
+            "https://i.imgur.com/mOzw6ji.jpg",
+            "https://i.imgur.com/4oS0vAT.jpg",
+            "https://i.imgur.com/vmx2JvD.jpg",
+            "https://i.imgur.com/ZYzDq6Q.jpg",
+            "https://i.imgur.com/kiI2ND3.jpg",
+            "https://i.imgur.com/XxXH0KF.jpg",
+            "https://i.imgur.com/kM0S7nt.jpg",
+            "https://i.imgur.com/jjbw5DX.jpg",
+            "https://i.imgur.com/jrkHfyy.jpg",
+            "https://i.imgur.com/mupxaOd.jpg",
+            "https://i.imgur.com/PdDxnXn.jpg",
+            "https://i.imgur.com/l8ZVAHY.jpg"
         ]
     }
 ]
